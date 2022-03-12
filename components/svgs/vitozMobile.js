@@ -1,4 +1,4 @@
-export default function Logo({ ...props }) {
+export default function VitozMobile() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,6 @@ export default function Logo({ ...props }) {
       height="50"
       preserveAspectRatio="xMidYMid meet"
       version="1.0"
-      {...props}
     >
       <defs>
         <clipPath id="id1">

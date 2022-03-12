@@ -13,7 +13,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Transition } from 'react-transition-group'
 
-import { LogoSVG, MarkSVG, Vitoz } from '@/svgs'
+import { LogoSVG, MarkSVG, VitozSVG, VitozMobile } from '@/svgs'
 import { MenuIcon, XIcon } from '@/icons'
 
 const defaultStyle = {
@@ -96,7 +96,7 @@ export default function Navigation({ pages }) {
                   <Link href="/">
                     <a>
                       <VisuallyHidden>GraphCMS</VisuallyHidden>
-                      <Box as={MarkSVG} h={8} w="auto" color="indigo.600" />
+                      <Box as={VitozSVG} h={8} w="auto" />
                     </a>
                   </Link>
                 </div>
@@ -173,8 +173,8 @@ export default function Navigation({ pages }) {
           <Flex w={{ lg: 0 }} flex={{ lg: '1 1 0' }}>
             <Link href="/">
               <a>
-                <VisuallyHidden>GraphCMS</VisuallyHidden>
-                <Box as={Vitoz} h={10} color="indigo.600" w="auto" />
+                {/* <VisuallyHidden>GraphCMS</VisuallyHidden> */}
+                <Box as={VitozSVG} h={10} w="auto" />
               </a>
             </Link>
           </Flex>

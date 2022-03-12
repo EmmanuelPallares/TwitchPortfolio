@@ -1,4 +1,5 @@
 export { default as DotsSVG } from './dots'
 export { default as LogoSVG } from './logo'
 export { default as MarkSVG } from './mark'
-export { default as Vitoz } from './vitoz'
+export { default as VitozSVG } from './vitoz'
+export { default as VitozMobile } from './vitozMobile'

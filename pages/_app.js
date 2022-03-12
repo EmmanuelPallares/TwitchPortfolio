@@ -6,6 +6,7 @@ import { SiteLayout } from '@/layout'
 import { defaultSEO } from '../next-seo.config'
 import { theme } from '../styles/theme'
 import '../styles/css/global.css'
+import 'tailwindcss/tailwind.css'
 
 export default function App({ Component, pageProps }) {
   const getLayout =
