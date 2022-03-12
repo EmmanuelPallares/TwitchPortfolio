@@ -10,7 +10,7 @@ export default function Hero({ buttons, image, navigation, page }) {
     <>
       <Box position="relative" bg="gray.50">
         <Navigation {...navigation} />
-        <Box as="main" position={{ lg: 'relative' }}>
+        {/* <Box as="main" position={{ lg: 'relative' }}>
           <Box
             mx="auto"
             maxW="7xl"
@@ -66,25 +66,7 @@ export default function Hero({ buttons, image, navigation, page }) {
               )}
             </Box>
           </Box>
-          <Box
-            pos={{ base: 'relative', lg: 'absolute' }}
-            w={{ base: 'full', lg: '50%' }}
-            h={[64, 72, 96, 'full']}
-            top={{ lg: 0 }}
-            bottom={{ lg: 0 }}
-            right={{ lg: 0 }}
-          >
-            <Image
-              className="hero-image"
-              src={image.url}
-              alt={image.title}
-              title={image.title}
-              layout="fill"
-              priority={true}
-              objectFit="cover"
-            />
-          </Box>
-        </Box>
+        </Box> */}
       </Box>
 
       {/* <div
