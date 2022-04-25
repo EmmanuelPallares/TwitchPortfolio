@@ -29,7 +29,7 @@ export default function VitozMobile() {
           />
         </clipPath>
       </defs>
-      <g clip-path="url(#id1)">
+      <g clipPath="url(#id1)">
         <path
           fill="rgb(14.118958%, 16.079712%, 18.429565%)"
           d="M 99.183594 15.136719 L 87.171875 35.925781 L 79.015625 21.863281 L 91.046875 1.046875 L 99.183594 15.136719 "
@@ -37,7 +37,7 @@ export default function VitozMobile() {
           fill-rule="nonzero"
         />
       </g>
-      <g clip-path="url(#id2)">
+      <g clipPath="url(#id2)">
         <path
           fill="rgb(91.369629%, 23.919678%, 26.669312%)"
           d="M 117.40625 1.046875 L 97.183594 35.925781 L 113.582031 35.925781 L 133.734375 1.046875 L 117.40625 1.046875 "
@@ -45,7 +45,7 @@ export default function VitozMobile() {
           fill-rule="nonzero"
         />
       </g>
-      <g clip-path="url(#id3)">
+      <g clipPath="url(#id3)">
         <path
           fill="rgb(91.369629%, 23.919678%, 26.669312%)"
           d="M 50.617188 1.046875 L 70.773438 35.925781 L 87.171875 35.925781 L 66.949219 1.046875 L 50.617188 1.046875 "
